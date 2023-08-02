@@ -8,7 +8,6 @@ function App() {
   const state = useSelector(state => state.todosstore.todos)
   return (
     <>
-      <h1>Todos-list</h1>
       <div className="App">
         
         <Todos/>
