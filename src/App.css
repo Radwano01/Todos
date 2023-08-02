@@ -1,14 +1,14 @@
-h1{
-  background-color: grey;
-  display: flex;
-  justify-content: center;
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #ffcc99, #99ccff); /* Set your desired background color */
 }
 
-.App{
-  background-color: grey;
+.App {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
